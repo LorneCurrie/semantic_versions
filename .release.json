@@ -1,0 +1,16 @@
+{
+  "verbose": false,
+  "prereleaseId": "rc",
+  "src": {
+    "commitMessage": "Release %s",
+    "tagName": "v%s",
+    "tagAnnotation": "Release %s"
+  },
+  "npm": {
+    "publish": false,
+    "publishPath": ".",
+    "tag": "latest",
+    "private": false,
+    "forcePublishSourceRepo": false
+  }
+}
