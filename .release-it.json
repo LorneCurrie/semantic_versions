@@ -1,17 +1,21 @@
 {
   "verbose": true,
-  "non-interactive": false,
+  "non-interactive": true,
   "prereleaseId": "rc",
+  "changelogCommand": "git log --pretty=format:\"* %s (%h)\" [REV_RANGE]",
   "src": {
     "commitMessage": "Release %s",
-    "tagName": "%s",
     "tagAnnotation": "Release %s"
   },
   "github": {
     "release": true
   },
   "npm": {
-    "publish": true
+    "publish": false,
+    "publishPath": ".",
+    "tag": "latest",
+    "private": false,
+    "access": null
   },
   "prompt": {
     "src": {
