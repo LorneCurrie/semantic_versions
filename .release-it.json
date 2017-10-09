@@ -1,5 +1,5 @@
 {
-  "verbose": true,
+  "verbose": false,
   "non-interactive": true,
   "prereleaseId": "rc",
   "changelogCommand": "git log --pretty=format:\"* %s (%h)\" [REV_RANGE]",
