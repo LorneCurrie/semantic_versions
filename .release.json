@@ -15,11 +15,12 @@
   },
   "prompt": {
     "src": {
-      "status": false,
-      "commit": true,
-      "tag": true,
-      "push": true,
-      "release": true
+      "status": "Y",
+      "commit": "Y",
+      "tag": "Y",
+      "push": "Y",
+      "release": "Y",
+      "publish": "N"
     }
   }
 }
