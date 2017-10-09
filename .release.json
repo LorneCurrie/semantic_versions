@@ -19,8 +19,7 @@
       "commit": true,
       "tag": true,
       "push": true,
-      "release": true,
-      "publish": false
+      "release": true
     }
   }
 }
