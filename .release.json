@@ -1,5 +1,6 @@
 {
-  "verbose": false,
+  "verbose": true,
+  "non-interactive": false,
   "prereleaseId": "rc",
   "src": {
     "commitMessage": "Release %s",
@@ -7,11 +8,7 @@
     "tagAnnotation": "Release %s"
   },
   "npm": {
-    "publish": false,
-    "publishPath": ".",
-    "tag": "latest",
-    "private": false,
-    "forcePublishSourceRepo": false
+    "publish": false
   },
   "prompt": {
     "src": {
