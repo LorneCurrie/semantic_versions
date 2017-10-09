@@ -3,7 +3,7 @@
   "prereleaseId": "rc",
   "src": {
     "commitMessage": "Release %s",
-    "tagName": "v%s",
+    "tagName": "%s",
     "tagAnnotation": "Release %s"
   },
   "npm": {
@@ -12,5 +12,15 @@
     "tag": "latest",
     "private": false,
     "forcePublishSourceRepo": false
+  },
+  "prompt": {
+    "src": {
+      "status": false,
+      "commit": true,
+      "tag": true,
+      "push": true,
+      "release": true,
+      "publish": false
+    }
   }
 }
