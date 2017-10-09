@@ -8,7 +8,7 @@
     "tagAnnotation": "Release %s"
   },
   "npm": {
-    "publish": false
+    "publish": true
   },
   "prompt": {
     "src": {

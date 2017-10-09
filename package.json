@@ -1,6 +1,6 @@
 {
   "name": "semantic_versions",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "description": "Semantive version test",
   "main": "index.js",
   "repository": "git@github.com:LorneCurrie/semantic_versions.git",
